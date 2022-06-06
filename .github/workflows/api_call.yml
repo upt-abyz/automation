@@ -20,7 +20,7 @@ jobs:
       - uses: octokit/request-action@v2.x
         id: get_latest_release
         with:
-          route: GET /repos/upt-abyz/sandbox/branches/main/protection
+          route: GET /repos/{owner}/{repo}/branches/main/protection
           owner: upt-abyz
           repo: sandbox
         env:
