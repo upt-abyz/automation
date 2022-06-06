@@ -21,7 +21,7 @@ jobs:
         id: get_latest_release
         with:
           route: GET /repos/upt-abyz/sandbox/branches/main/protection
-          owner: aidanbauer
+          owner: upt-abyz
           repo: sandbox
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
